@@ -55,11 +55,13 @@ This project aims to create smart glasses that assist blind people by detecting 
    ```bash
    git clone https://github.com/your-username/Smart_Glasses.git
    cd Smart_Glasses
-2. ** Complie and Run Read_data.cpp**
 
-    ```bash
-3. ** Run realtime_plot**
 
-4. ** ...**
+2. **Complie and Run Read_data.cpp**
+
+    
+3. **Run realtime_plot**
+
+4. **...**
 
 
