@@ -33,7 +33,7 @@ This project aims to create smart glasses that assist blind people by detecting 
 - **Python**: Main programming language for data processing
 - **OpenCV**: For image processing and object detection
 - **Mobile App**: Built with React Native/Flutter for data analysis and feedback
-- ** ...**
+- **...**
 
 ## Schematic Diagram
 
