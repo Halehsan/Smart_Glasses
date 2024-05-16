@@ -23,7 +23,7 @@ This project aims to create smart glasses that assist blind people by detecting 
 - **Touch Sensor**: TTP223 capacitive touch sensor
 - **Battery**: 1200mAh LiPo Battery (appropriate capacity)
 - **Charging Module**: TP4056
-  **Voltage Booster**: PowerBoost 1000C or similar
+- **Voltage Booster**: PowerBoost 1000C or similar
 - **Headphones**: Any compatible headphones
 - **On/Off Button**: Omron B3F-1000 Series EVQ-P7 
 
