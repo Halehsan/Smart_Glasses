@@ -62,23 +62,20 @@ This project aims to create smart glasses that assist blind people by detecting 
 
    ```bash
    cd Smart_Glasses/hw_sw_coding
-   ```
-
    gcc read_data.cpp -o read_data
-   ```
-
    ./read_data
 
 3. **Run realtime_plot**
+
    ```bash
    cd Smart_Glasses/hw_sw_coding
-   ```
    python3 realtime_plot.py
 
+
 4. **Run test.py for simulating the process of realtime plot with random numbers**
+
    ```bash
    cd Smart_Glasses/hw_sw_coding
-   ```
    sudo python3.py
 
 5. **...**
