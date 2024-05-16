@@ -12,7 +12,7 @@ void loop() {
 
     sensorValue = analogRead(analogPin)     // Read the analog input
 
-    serial.printIn(datsensorValue);          // send the value to the serial port
+    serial.printIn(sensorValue);          // send the value to the serial port
 
 }
 

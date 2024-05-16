@@ -36,7 +36,7 @@ This project aims to create smart glasses that assist blind people by detecting 
 
 ## Schematic Diagram
 
-![Schematic Diagram](electronic_components_and_modules/schematic%20diagram.png)
+![Schematic Diagram](electronic_components_and_modules/SCHEMATIC_DIAGRAM.png)
 
 ## Installation
 
