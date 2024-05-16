@@ -76,7 +76,7 @@ This project aims to create smart glasses that assist blind people by detecting 
 
    ```bash
    cd Smart_Glasses/hw_sw_coding
-   sudo python3.py
+   sudo python3 test.py
 
 5. **...**
 
