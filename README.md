@@ -18,13 +18,14 @@ This project aims to create smart glasses that assist blind people by detecting 
 
 ## Hardware Components
 
-- **Raspberry Pi**: Central processing unit
+- **Raspberry Pi**: Processing unit for transferring data from camera and sensors to mobile phone
 - **USB Camera**: Razer Kiyo or similar
 - **Touch Sensor**: TTP223 capacitive touch sensor
-- **Battery**: LiPo battery (3.7V, appropriate capacity)
-- **Charging Module**: Adafruit PowerBoost 1000C or similar
+- **Battery**: 1200mAh LiPo Battery (appropriate capacity)
+- **Charging Module**: TP4056
+  **Voltage Booster**: PowerBoost 1000C or similar
 - **Headphones**: Any compatible headphones
-- **On/Off Button**: Tactile push button
+- **On/Off Button**: Omron B3F-1000 Series EVQ-P7 
 
 ## Software Components
 
@@ -57,11 +58,29 @@ This project aims to create smart glasses that assist blind people by detecting 
    cd Smart_Glasses
 
 
-2. **Complie and Run Read_data.cpp**
+2. **Complie and Run read_data.cpp**
 
-    
+   ```bash
+   cd Smart_Glasses/hw_sw_coding
+   ```
+
+   gcc read_data.cpp -o read_data
+   ```
+
+   ./read_data
+
 3. **Run realtime_plot**
+   ```bash
+   cd Smart_Glasses/hw_sw_coding
+   ```
+   python3 realtime_plot.py
 
-4. **...**
+4. **Run test.py for simulating the process of realtime plot with random numbers**
+   ```bash
+   cd Smart_Glasses/hw_sw_coding
+   ```
+   sudo python3.py
+
+5. **...**
 
 

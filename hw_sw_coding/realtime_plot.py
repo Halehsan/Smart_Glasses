@@ -17,7 +17,7 @@ def realTimePlot(frame):
 
     ## Stop the program without using crtl+c
     ## check if the 'Esc' key has been pressed
-    if keyboard.is_pressed('esc')
+    if keyboard.is_pressed('esc'):
         plt.close('all')
         ser.close()
         print('Program stopped')
