@@ -11,20 +11,25 @@ int in3 = 8;
 
 
 void setup() {
-// Set all the motor control pins to outputs
-  pinMode(enA, OUTPUT);
-  pinMode(enB, OUTPUT);
+
+  initializeMotors();
+  motor_function(0,0);
+}
+
+void initializeMotors() {
+
+  // Set all the motor control pins to output
   pinMode(in1, OUTPUT);
   pinMode(in2, OUTPUT);
   pinMode(in3, OUTPUT);
   pinMode(in4, OUTPUT);
-  
-// Initialize the motors to stop
-  motor_function(0,0);
+  pinMode(enA, OUTPUT);
+  pinMode(enB, OUTPUT);
+
+  // stop
+  motor_function(0, 0);
 }
 
-
-    
 
 void motor_function(int left_speed, int right_speed) {
 
